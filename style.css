@@ -1,0 +1,199 @@
+body 
+{
+min-height: 100%;
+}
+
+
+
+header {
+	display : flex;
+	justify-content: flex-end;
+}
+.icone1, .icone2, .icone3
+{
+	line-height: 24px;
+	vertical-align: bottom; 
+	font-family: arial,sans-serif;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 13px;
+	color: rgba(0,0,0,0.87);
+	margin: 10px;
+	cursor: default;
+	text-decoration: none;
+	outline: none;
+}
+
+.icone3
+{
+	color: #fff;
+	background: #4285f4;
+	border: 1px;
+	box-shadow: 1px;
+	padding: 12px;
+	text-decoration: none;
+	vertical-align: middle; 
+	text-align: center;
+	cursor: default;
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+	border: 1px solid;
+	width: 67px;
+	height: 11px;
+
+
+}
+
+.icone1:hover {text-decoration: underline;}
+
+.icone1, .icone3{
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+
+#messageAccueil
+{
+display: block;
+margin-left: 43%;
+margin-top: 15%;
+}
+
+
+#milieuPage
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 160px;
+}
+
+
+#logoGoogle
+{
+margin-bottom: 25px;
+position: relative;
+margin-left: 43%;
+margin-top: 0%;
+}
+
+
+#champ 
+{
+width : 600px;
+height: 40px;
+border: #DCDCDC 1px solid;
+box-shadow: 6px 6px 6px #DCDCDC;
+border-radius: 0px;
+margin-left: 34%;
+}
+
+
+.boutonsSousLogo
+{
+margin-top: 35px;
+margin-left: 42%;
+border-width:2px;
+}
+
+
+#boutonRecherche, #boutonChance
+{
+background-color:#F5F5F5;
+font-size: 13px;
+height:35px;
+width:150px;
+margin-top: 30px;
+line-height: 35px;
+text-align: center;
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2 ;
+border-radius: 2px;
+margin: 0 5px;
+font-weight: bold;
+color: #757575;
+}
+
+#boutonRecherche:hover {
+border: 1px solid #c6c6c6;
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+color: #222;
+}
+
+#boutonChance:hover {
+border: 1px solid #c6c6c6;
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+color: #222;
+}
+
+.boutonSousLogo1
+{
+margin-right: 5px;
+}
+
+
+.boutonSousLogo2
+{
+margin-left: 5px;
+}
+
+
+
+footer 
+{
+position: absolute;
+bottom:0;
+left: 0;
+right:0;
+color :rgba(0,0,0,.54);
+display: flex;
+flex-direction: column;
+background-color: #f2f2f2;
+border: 1px solid #e4e4e4;
+}
+
+
+#pays
+{
+font-size: 11pt;
+padding: 10px;
+padding-left: 56px;
+}
+
+
+#barreDuBas
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border: 1px solid #e4e4e4;
+font-size: 10pt;
+}
+
+
+.liste
+{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+font-family: Arial, sans-serif;
+}
+
+#barreDuBas ul:first-child li
+{
+margin-right: 15px;
+}
+
+#barreDuBas ul:last-child li
+{
+margin-left:15px;
+}
+
+#infoBas1:hover {text-decoration: underline;}
+#infoBas2:hover {text-decoration: underline;}
+#InfoBas3:hover {text-decoration: underline;}
+#infoBas4:hover {text-decoration: underline;}
+#infoBas5:hover {text-decoration: underline;}
+#infoBas6:hover {text-decoration: underline;} 
+#infoBas7:hover {text-decoration: underline;}
